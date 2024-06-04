@@ -304,7 +304,7 @@ var FrenifyTechWaveTime = new Date();
                 message = o
                 var n = e(".fn__chatbot .chat__item.active"),
                   i =
-                    '<div class="chat__box your__chat"><div class="author"><span>You</span></div><div class="chat"><p>' +
+                    '<div class="chat__box your__chat"><div class="author"><span>Bạn</span></div><div class="chat"><p>' +
                     o +
                     "</p></div></div>";
                 if (
@@ -390,7 +390,7 @@ var FrenifyTechWaveTime = new Date();
       //     (e(".fn__chat_comment button").addClass("disabled"),
       //       setTimeout(function () {
       //         e(".fn__chatbot .chat__item.active").append(
-      //           '<div class="chat__box bot__chat"><div class="author"><span>VN Check ADVISOR</span></div><div class="chat"><frenify_typing><h3><span>Typing...</frenify></h3></div></div>'
+      //           '<div class="chat__box bot__chat"><div class="author"><span>VN Check Chatbot</span></div><div class="chat"><frenify_typing><h3><span>Đang trả lời...</frenify></h3></div></div>'
       //         ),
       //           e(".techwave_fn_intro").length
       //             ? e("html, body").animate({
@@ -426,7 +426,7 @@ var FrenifyTechWaveTime = new Date();
 
         // Hiển thị hiệu ứng "typing"
         e(".fn__chatbot .chat__item.active").append(
-          '<div class="chat__box bot__chat"><div class="author"><span>VN Check ADVISOR</span></div><div class="chat"><frenify_typing><h3><span>Typing...</frenify></h3></div></div>'
+          '<div class="chat__box bot__chat"><div class="author"><span>VN Check Chatbot</span></div><div class="chat"><frenify_typing><h3><span>Đang trả lời...</frenify></h3></div></div>'
         );
 
         fetch('https://api.coze.com/open_api/v2/chat', {
