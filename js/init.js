@@ -455,7 +455,7 @@ var FrenifyTechWaveTime = new Date();
             // Loại bỏ hiệu ứng "typing" và hiển thị phản hồi thực tế
             e(".fn__chatbot .chat__item.active .chat__box.bot__chat:last-child").remove();
             e(".fn__chatbot .chat__item.active").append(
-              '<div class="chat__box bot__chat"><div class="author"><span>VN Check ADVISOR</span></div><div class="chat" style="text-align: justify;">' + response + '</div></div>'
+              '<div class="chat__box bot__chat"><div class="author"><span>VN Check Chatbot</span></div><div class="chat" style="text-align: justify;">' + response + '</div></div>'
             );
           })
           .catch((error) => {
